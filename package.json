@@ -1,0 +1,38 @@
+{
+  "name": "test-software-engineer",
+  "version": "1.0.0",
+  "description": "ComparaOnline Software Engineer Test",
+  "main": "index.js",
+  "scripts": {
+    "after-30-days": "npx ts-node ./src/main.ts",
+    "test": "nyc mocha -r ts-node/register spec/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comparaonline/test-software-engineer.git"
+  },
+  "keywords": [
+    "comparaonline",
+    "test",
+    "software",
+    "engineer"
+  ],
+  "author": "ComparaOnline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comparaonline/test-software-engineer/issues"
+  },
+  "homepage": "https://github.com/comparaonline/test-software-engineer#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^16.3.3",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.1.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
